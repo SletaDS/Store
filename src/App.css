@@ -1,0 +1,61 @@
+.slider{
+ display: grid;
+ gap: 2rem; 
+ font-size: 1.125rem;
+line-height: 1.75rem;
+grid-auto-flow: column;
+}
+.shadow1{
+    -webkit-box-shadow: 0px 2px 8px 6px rgba(34, 60, 80, 0.06);
+    -moz-box-shadow: 0px 2px 8px 6px rgba(34, 60, 80, 0.06);
+    box-shadow: 0px 2px 8px 6px rgba(34, 60, 80, 0.06);   
+    
+}
+.shadow1:hover{
+    -webkit-box-shadow: 0px 2px 8px 3px rgba(0, 0, 0, 0.22);
+-moz-box-shadow: 0px 2px 8px 3px rgba(0, 0, 0, 0.22);
+box-shadow: 0px 2px 8px 3px rgba(0, 0, 0, 0.22);
+}
+.overflow{
+overflow-y: auto;
+}
+.overflow::-webkit-scrollbar {
+    width: 9px;
+     background-color: #ffffff;
+  }    
+.overflow::-webkit-scrollbar-thumb {
+    background-color: #c7c7c7;
+    }
+.modal-wrapper{
+    
+    display:flex;
+    width:100%;
+    height:100%;
+    justify-content:center;
+    align-items:center;
+    background:rgba(0,0,0,.7);
+    
+}
+.childwrapper {
+  position: fixed;
+}
+.margen{
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+  
+
+}
+*{
+    overflow: visible;
+}
+::-webkit-scrollbar{
+    
+    width: 10px;
+     background-color: #ffffff;
+}
+::-webkit-scrollbar-thumb {
+    
+    width: 10px;
+     background-color: #a3a3a3;
+}
